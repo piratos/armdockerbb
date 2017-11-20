@@ -1,1 +1,5 @@
 master/vars.py
+master/twisted.log
+master/http.log
+master/state.sqlite
+*.pyc

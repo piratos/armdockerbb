@@ -1820,3 +1820,64 @@
 2017-11-19 15:07:48+0000 [-] Latent worker npm-docker-worker attached to py
 2017-11-19 15:07:48+0000 [-] Latent worker npm-docker-worker attached to nmp
 2017-11-19 15:07:48+0000 [-] BuildMaster is running
+2017-11-20 11:03:17+0000 [-] Loading buildbot.tac...
+2017-11-20 11:03:22+0000 [-] Loaded.
+2017-11-20 11:03:22+0000 [-] twistd 17.9.0 (/usr/bin/python 2.7.12) starting up.
+2017-11-20 11:03:22+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-11-20 11:03:22+0000 [-] Starting BuildMaster -- buildbot.version: 0.9.13
+2017-11-20 11:03:22+0000 [-] Loading configuration from '/home/buildbot/armdockerbb/master/master.cfg'
+2017-11-20 11:03:26+0000 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2017-11-20 11:03:26+0000 [-] setting database journal mode to 'wal'
+2017-11-20 11:03:27+0000 [-] doing housekeeping for master 1 ubuntu:/home/ubuntu/master
+2017-11-20 11:03:27+0000 [-] doing housekeeping for master 2 ubuntu:/home/buildbot/master
+2017-11-20 11:03:28+0000 [-] adding 1 new change_sources, removing 0
+2017-11-20 11:03:28+0000 [-] gitpoller: using workdir '/home/buildbot/armdockerbb/master/gitpoller-workdir'
+2017-11-20 11:03:28+0000 [-] adding 2 new builders, removing 0
+2017-11-20 11:03:28+0000 [-] adding 2 new schedulers, removing 0
+2017-11-20 11:03:29+0000 [-] initializing www plugin 'grid_view'
+2017-11-20 11:03:29+0000 [-] initializing www plugin 'waterfall_view'
+2017-11-20 11:03:29+0000 [-] initializing www plugin 'console_view'
+2017-11-20 11:03:29+0000 [-] BuildbotSite starting on 8010
+2017-11-20 11:03:29+0000 [-] Starting factory <buildbot.www.service.BuildbotSite instance at 0x74642fa8>
+2017-11-20 11:03:29+0000 [-] adding 1 new workers, removing 0
+2017-11-20 11:03:29+0000 [-] PBServerFactory starting on 9989
+2017-11-20 11:03:29+0000 [-] Starting factory <twisted.spread.pb.PBServerFactory instance at 0x74641c88>
+2017-11-20 11:03:29+0000 [-] Latent worker npm-docker-worker attached to py
+2017-11-20 11:03:29+0000 [-] Latent worker npm-docker-worker attached to nmp
+2017-11-20 11:03:29+0000 [-] BuildMaster is running
+2017-11-20 11:03:52+0000 [-] Received SIGTERM, shutting down.
+2017-11-20 11:03:52+0000 [-] doing housekeeping for master 3 ubuntu:/home/buildbot/armdockerbb/master
+2017-11-20 11:03:53+0000 [-] Initiating clean shutdown
+2017-11-20 11:03:53+0000 [-] No running jobs, starting shutdown immediately
+2017-11-20 11:03:53+0000 [-] (TCP Port 8010 Closed)
+2017-11-20 11:03:53+0000 [-] Stopping factory <buildbot.www.service.BuildbotSite instance at 0x74642fa8>
+2017-11-20 11:03:53+0000 [-] (TCP Port 9989 Closed)
+2017-11-20 11:03:53+0000 [-] Stopping factory <twisted.spread.pb.PBServerFactory instance at 0x74641c88>
+2017-11-20 11:03:53+0000 [-] BuildMaster is stopped
+2017-11-20 11:03:53+0000 [-] Main loop terminated.
+2017-11-20 11:03:53+0000 [-] Server Shut Down.
+2017-11-20 11:05:12+0000 [-] Loading buildbot.tac...
+2017-11-20 11:05:17+0000 [-] Loaded.
+2017-11-20 11:05:17+0000 [-] twistd 17.9.0 (/usr/bin/python 2.7.12) starting up.
+2017-11-20 11:05:17+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-11-20 11:05:17+0000 [-] Starting BuildMaster -- buildbot.version: 0.9.13
+2017-11-20 11:05:17+0000 [-] Loading configuration from '/home/buildbot/armdockerbb/master/master.cfg'
+2017-11-20 11:05:22+0000 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2017-11-20 11:05:22+0000 [-] setting database journal mode to 'wal'
+2017-11-20 11:05:22+0000 [-] doing housekeeping for master 1 ubuntu:/home/ubuntu/master
+2017-11-20 11:05:23+0000 [-] doing housekeeping for master 2 ubuntu:/home/buildbot/master
+2017-11-20 11:05:23+0000 [-] adding 1 new change_sources, removing 0
+2017-11-20 11:05:23+0000 [-] gitpoller: using workdir '/home/buildbot/armdockerbb/master/gitpoller-workdir'
+2017-11-20 11:05:23+0000 [-] adding 2 new builders, removing 0
+2017-11-20 11:05:23+0000 [-] adding 2 new schedulers, removing 0
+2017-11-20 11:05:24+0000 [-] initializing www plugin 'grid_view'
+2017-11-20 11:05:24+0000 [-] initializing www plugin 'waterfall_view'
+2017-11-20 11:05:24+0000 [-] initializing www plugin 'console_view'
+2017-11-20 11:05:24+0000 [-] BuildbotSite starting on 8010
+2017-11-20 11:05:24+0000 [-] Starting factory <buildbot.www.service.BuildbotSite instance at 0x7457e850>
+2017-11-20 11:05:24+0000 [-] adding 1 new workers, removing 0
+2017-11-20 11:05:24+0000 [-] PBServerFactory starting on 9989
+2017-11-20 11:05:24+0000 [-] Starting factory <twisted.spread.pb.PBServerFactory instance at 0x74502058>
+2017-11-20 11:05:24+0000 [-] Latent worker npm-docker-worker attached to py
+2017-11-20 11:05:24+0000 [-] Latent worker npm-docker-worker attached to nmp
+2017-11-20 11:05:24+0000 [-] BuildMaster is running
